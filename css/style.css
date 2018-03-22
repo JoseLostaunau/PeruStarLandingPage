@@ -1046,6 +1046,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 72px;
 }
 
+#portfolio.apartment {
+  padding: 0px 0;
+  margin-top: 0px;
+}
+
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
