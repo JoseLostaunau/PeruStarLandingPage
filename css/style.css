@@ -1206,7 +1206,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #apartments p {
   text-align: justify;
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
   color: #333;
 }
 
