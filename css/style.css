@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #header-other #logo h1 {
     font-size: 28px;
   }
@@ -586,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #intro h2 {
     font-size: 28px;
   }
@@ -741,7 +741,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #nav-menu-container {
     display: none;
   }
@@ -816,7 +816,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -1753,13 +1753,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 866px) {
   #contact .contact-address, #contact .contact-phone, #contact .contact-email {
     padding: 20px 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 866px) {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
