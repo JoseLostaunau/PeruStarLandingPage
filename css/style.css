@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -105,9 +105,18 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1135px) {
   #header #logo {
     padding-left: 60px;
+  }
+}
+
+@media (max-width: 1134px) {
+  #header #logo {
+    padding-left: 10px;
+  }
+  #header #logo img {
+    max-height: 50px;
   }
 }
 
@@ -130,15 +139,6 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-}
-
-@media (max-width: 768px) {
-  #header #logo h1 {
-    font-size: 28px;
-  }
-  #header #logo img {
-    max-height: 40px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #header-other #logo {
-    padding-left: 60px;
+    padding-left: 55px;
   }
 }
 
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #header-other #logo h1 {
     font-size: 28px;
   }
@@ -300,6 +300,240 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 20px 20px 20px;
 }
 
+/* reservations Us Section
+--------------------------------*/
+#services-page-header {
+  background: url("../img/Banners/Decorative/ourteam.jpg");
+  /* height: 100vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 470px 0 40px 0;
+  position: relative;
+  margin-top: 92px;
+}
+
+#services-page-pet {
+  background: url("../img/banners/decorative/mascota4.jpg");  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  padding: 260px 0 40px 0;
+  position: relative;
+}
+
+#services-page-pet p {
+  color: #f7f7f7;
+  font-size: 22PX;
+}
+
+#services-page-pet h3 {
+  color: #f7f7f7;
+}
+
+#services-page {
+  padding: 60px 0 40px 0;
+  position: relative;
+  margin-top: 72px;
+}
+
+#services-page::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0);
+  z-index: 9;
+}
+
+#services-page .container {
+  position: relative;
+  z-index: 10;
+}
+
+#services-page .services-page-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  min-height: 445px;
+}
+
+#services-page .services-page-col .img {
+  position: relative;
+}
+
+#services-page .services-page-col .img img {
+  border-radius: 4px 4px 0 0;
+}
+
+#services-page .services-page-col .icon {
+  width: 64px;
+  height: 64px;
+  padding-top: 8px;
+  text-align: center;
+  position: absolute;
+  background-color: #18d26e;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #fff;
+  left: calc( 50% - 32px);
+  bottom: -30px;
+  transition: 0.3s;
+}
+
+#services-page .services-page-col i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#services-page .services-page-col:hover .icon {
+  background-color: #fff;
+}
+
+#services-page .services-page-col:hover i {
+  color: #18d26e;
+}
+
+#services-page .services-page-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
+#services-page .services-page-col h2 a {
+  color: #000;
+}
+
+#services-page .services-page-col h2 a:hover {
+  color: #18d26e;
+}
+
+#services-page .services-page-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
+/* aboutFamily Us Section
+--------------------------------*/
+#aboutFamily {
+  background: url("../img/Banners/Decorative/saludo.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+  margin-top: 72px;
+}
+
+#aboutFamily p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#aboutFamily .section-header h3{
+  color: #fff;
+}
+
+#aboutFamily::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(100, 100, 100, 0.8);
+  z-index: 9;
+}
+
+#aboutFamily .container {
+  position: relative;
+  z-index: 10;
+}
+
+#aboutFamily .aboutFamily-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  min-height: 445px;
+}
+
+#aboutFamily .aboutFamily-col .img {
+  position: relative;
+}
+
+#aboutFamily .aboutFamily-col .img img {
+  border-radius: 4px 4px 0 0;
+}
+
+#aboutFamily .aboutFamily-col .icon {
+  width: 64px;
+  height: 64px;
+  padding-top: 8px;
+  text-align: center;
+  position: absolute;
+  background-color: #18d26e;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #fff;
+  left: calc( 50% - 32px);
+  bottom: -30px;
+  transition: 0.3s;
+}
+
+#aboutFamily .aboutFamily-col i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#aboutFamily .aboutFamily-col:hover .icon {
+  background-color: #fff;
+}
+
+#aboutFamily .aboutFamily-col:hover i {
+  color: #18d26e;
+}
+
+#aboutFamily .aboutFamily-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
+#aboutFamily .aboutFamily-col h2 a {
+  color: #000;
+}
+
+#aboutFamily .aboutFamily-col h2 a:hover {
+  color: #18d26e;
+}
+
+#aboutFamily .aboutFamily-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -352,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #intro h2 {
     font-size: 28px;
   }
@@ -507,7 +741,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #nav-menu-container {
     display: none;
   }
@@ -582,7 +816,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 866px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -876,12 +1110,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
+#about .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+
+
+  background-color: #fff;
+  border: 2px solid #18d26e;
+  color: #18d26e;
+}
+
+#about .cta-btn:hover {
+  border: 2px solid #fff;
+  background-color: #18d26e;
+  color: #fff;
+}
+
 /* Services Section
 --------------------------------*/
 #services {
   background: #fff;
   background-size: cover;
   padding: 60px 0 40px 0;
+}
+
+#services img {
+  margin-right: 40px;
+  padding-bottom: 25px;
 }
 
 #services .box {
@@ -909,6 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .title a {
   color: #111;
+  text-align: center;
 }
 
 #services .box:hover .title a {
@@ -922,6 +1186,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
   text-align: justify;
 }
+
+#services .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+
+
+  background-color: #fff;
+  border: 2px solid #18d26e;
+  color: #18d26e;
+}
+
+#services .cta-btn:hover {
+  border: 2px solid #fff;
+  background-color: #18d26e;
+  color: #fff;
+}
+
 
 /* Call To Action Section
 --------------------------------*/
@@ -1044,6 +1333,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio {
   padding: 60px 0;
   margin-top: 72px;
+}
+
+#portfolio.apartment {
+  padding: 0px 0;
+  margin-top: 0px;
 }
 
 #portfolio #portfolio-flters {
@@ -1186,6 +1480,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
+
+/* Apartments Section
+--------------------------------*/
+#apartments {
+  padding: 60px 0 40px 0;
+  margin-top: 72px;
+}
+
+.carousel-item img {
+  max-height: 900px;
+  min-width: auto;
+}
+
+#apartments p {
+  text-align: justify;
+  /* padding-bottom: 8px; */
+  color: #333;
+}
+
+#apartments h5 {
+  text-align: justify;
+  font-weight: bold;
+  color: #333;
+}
+
+#apartments img:hover {
+  opacity: 1;
+}
+
 /* Clients Section
 --------------------------------*/
 #clients {
@@ -1194,9 +1517,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients img {
   max-width: 100%;
-  opacity: 0.5;
+  opacity: 0.7;
   transition: 0.3s;
   padding: 15px 0;
+  height: 400px;
 }
 
 #clients img:hover {
@@ -1306,16 +1630,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+#team .member img{
+  opacity: 0.4;
+  min-height: 180px;
+  min-width: 132px;
+  
+}
+#team img:hover{  
+  opacity: 1;
+  transition: 0.4s;
+}
+
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  height: 400px;
-  width:400px;
-}
-
-#team .member img {
-  border-radius: 50%;
 }
 
 #team .member .member-info {
@@ -1329,7 +1659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   right: 0;
   transition: 0.2s;  
-  border-radius: 50%;
+  
 }
 
 #team .member .member-info-content {
@@ -1423,13 +1753,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 866px) {
   #contact .contact-address, #contact .contact-phone, #contact .contact-email {
     padding: 20px 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 866px) {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
